@@ -12,7 +12,7 @@ app.use(cors());
 app.listen(8000, () => {
   console.log("Server started on port 8000");
 });
-app.get("/get", (req, res) => {
+app.get("/", (req, res) => {
   let arr = [
     { name: "anand", age: 25, class: "mcom" },
     { name: "suresh", age: 15, class: "10th" },
